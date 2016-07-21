@@ -23,8 +23,10 @@ public class Task6 {
             List<String> inputStrings = Files.readAllLines(Paths.get(inputFile));
 
             System.out.print("Введите номера строк (1.." + inputStrings.size() + "), через пробел: ");
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-            String input = br.readLine();
+            String input;
+            try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+                input = br.readLine();
+            }
             String[] linesStr = input.split(" ");
             List<Integer> lines = new ArrayList<>();
             for (String string : linesStr)
