@@ -1,0 +1,14 @@
+Вопросы для самоконтроля
+    Как параметризуется класс и метод
+    Использование <? super T> <? extends T>
+
+Написать свой LinkedList (или ArrayList - на выбор) с методами:
+    add(E e)
+    add(int index, E e)
+    E get(int index)
+    E remove(int index)
+    Iterator<E> iterator()
+
+с использованием wildcards:
+    boolean addAll(Collection c)
+    boolean copy(Collection c)
