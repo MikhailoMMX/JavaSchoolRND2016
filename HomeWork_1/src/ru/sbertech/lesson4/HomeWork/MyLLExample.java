@@ -1,20 +1,19 @@
 package ru.sbertech.lesson4.HomeWork;
 
-import java.nio.channels.spi.AbstractSelectableChannel;
 import java.util.*;
 
 /**
  * Created by MikhailoMMX on 24.07.2016.
  */
 public class MyLLExample {
-    private static void printList(MyLinkedList<? extends Object> list){
-        Iterator<? extends Object> iterator = list.iterator();
+    private static <T> void printList(MyLinkedList<T> list){
+        Iterator<T> iterator = list.iterator();
         while (iterator.hasNext())
             System.out.print(iterator.next().toString() + " ");
         System.out.println();
     }
-    private static void printList(Collection<? extends Object> col){
-        Iterator<? extends Object> iterator = col.iterator();
+    private static void printList(Collection<?> col){
+        Iterator<?> iterator = col.iterator();
         while (iterator.hasNext())
             System.out.print(iterator.next().toString() + " ");
         System.out.println();
