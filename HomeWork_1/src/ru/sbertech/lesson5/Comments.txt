@@ -1,0 +1,13 @@
+Исключения - проверяемые и непроверяемые.
+Проверяемые - java требует обязательно реагировать на них.
+
+непроверяемые
+неожиденные, внутренние
+
+Ошибки
+неожидаемые, внешние
+
+Базовый класс Throwable
+    Error (unchecked) (OutOfMemory, StackOverflow...)
+    Exception (checked) (IOException...). Все наследники - checked, кроме:
+        Runtime Exception (unchecked) (). Все наследники - unchecked

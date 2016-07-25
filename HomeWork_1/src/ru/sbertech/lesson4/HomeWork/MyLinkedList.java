@@ -1,13 +1,7 @@
 package ru.sbertech.lesson4.HomeWork;
 
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import java.nio.file.NotDirectoryException;
-import java.security.PrivateKey;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
-import java.util.List;
 
 /**
  * Created by MikhailoMMX on 24.07.2016.
@@ -160,11 +154,9 @@ public class MyLinkedList<E> {
     }
 
     private class MyLLIterator implements Iterator<E>{
-        private MyLinkedList<E> list;
         private Item<E> cur;
         public MyLLIterator(MyLinkedList<E> list){
-            this.list = list;
-            cur = head;
+            cur = list.head;
         }
         @Override
         public boolean hasNext() {
@@ -179,11 +171,9 @@ public class MyLinkedList<E> {
         }
     }
     private class MyLLBackwardIterator implements Iterator<E>{
-        private MyLinkedList<E> list;
         private Item<E> cur;
         public MyLLBackwardIterator(MyLinkedList<E> list){
-            this.list = list;
-            cur = tail;
+            cur = list.tail;
         }
         @Override
         public boolean hasNext() {
