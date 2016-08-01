@@ -4,9 +4,6 @@ import java.lang.reflect.Proxy;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Student on 28.07.2016.
- */
 public class ProxyExampleLoggedList {
     public static void main(String[] args) {
         List<String> list = new ArrayList<>();

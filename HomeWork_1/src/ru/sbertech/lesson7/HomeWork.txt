@@ -1,0 +1,3 @@
+https://vcfvct.files.wordpress.com/2015/06/do-you-really-get-classloaders.pdf
+
+Написать загрузчик плагинов.
