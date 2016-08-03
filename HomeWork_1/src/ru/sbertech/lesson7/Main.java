@@ -1,5 +1,6 @@
 package ru.sbertech.lesson7;
 
+import java.io.File;
 import java.lang.reflect.Method;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -15,13 +16,16 @@ public class Main {
 
     private static void Test4() {
         try {
-            URLClassLoader urlClassLoader = new URLClassLoader(new URL[]{new URL("file:/J:/lecture7/person.jar")}, null);
-            Class<?> personClass = urlClassLoader.loadClass("ru.sbt.bvv.lecture7.CalculatorImpl");
+            File file = new File("D:\\Work\\СберТех\\IntelliJ_Idea_Projects\\JavaSchoolRND2016\\out\\production\\HomeWork_1\\");
+            URLClassLoader urlClassLoader = new URLClassLoader(new URL[]{file.toURL()}, null);
+            Class<?> personClass = urlClassLoader.loadClass("ru.sbertech.lesson7.CalculatorImpl");
             Calculator calculator = new CalculatorImpl();
             calculator.call();
 
-            calculator = (Calculator) personClass.newInstance();
-            calculator.call();
+            Calculator calc2 = (Calculator) personClass.newInstance();
+            calc2.call();
+            //calculator = (Calculator) personClass.newInstance();
+            //calculator.call();
         } catch (Exception e) {
             e.printStackTrace();
         }
