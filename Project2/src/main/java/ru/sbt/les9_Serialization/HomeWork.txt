@@ -1,0 +1,10 @@
+Сделать два клиента - один посылает файлы на сервер, другой принимает
+с использованием сериализации
+
+Доп. материал:
+https://m.habrahabr.ru/post/60317/
+http://www.javaworld.com/article/2076120/java-se/flatten-your-objects.html
+http://www.javaworld.com/article/2072752/the-java-serialization-algorithm-revealed.html
+https://docs.oracle.com/javase/8/docs/technotes/guides/serialization/relnotes.html
+http://javapapers.com/core-java/externalizable-vs-serializable/
+http://docs.oracle.com/javase/6/docs/platform/serialization/spec/serialTOC.html
