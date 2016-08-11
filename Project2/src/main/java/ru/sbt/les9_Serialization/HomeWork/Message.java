@@ -15,6 +15,8 @@ public class Message implements Serializable{
     public Message(String from, String to, String fileName) throws IOException {
         From = from;
         To = to;
+        if (fileName == null || fileName.equals(""))
+            return;
         ReadFromFile(fileName);
     }
 

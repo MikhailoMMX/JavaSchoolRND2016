@@ -1,0 +1,4 @@
+www.kahkeshan.com/Source/introduceBook/d77268a4-568a-40de-9d7d-e2f9eaf56d92
+
+свой функциональный интерфейс, параметризовать его
+Как-нибудь поиграться с ними и со Stream
