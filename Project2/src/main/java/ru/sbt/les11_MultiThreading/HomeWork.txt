@@ -1,0 +1,9 @@
+Литература:
+"Thinking in Java" Bruce Eckel
+"Java concurrency in practice"
+"SCJP Sun Certified Programmer for Java 7 Study Guide"
+
+Два файла, в первом куча слов - парсим в список,
+второй - файл с настройками - в нем размер пула
+Берем и через пул многопоточно выводим эти слова
+Посчитать количество букв в выводимых словах (многопоточно)
