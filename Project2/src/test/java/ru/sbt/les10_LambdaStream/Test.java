@@ -1,7 +1,6 @@
 package ru.sbt.les10_LambdaStream;
 
 import org.junit.Assert;
-import ru.sbt.les10_LambdaStream.HomeWork.FreqDicStream;
 import ru.sbt.les10_LambdaStream.HomeWork.WordTrimmer;
 
 public class Test {
