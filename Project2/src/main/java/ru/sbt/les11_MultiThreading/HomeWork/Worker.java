@@ -8,7 +8,7 @@ public class Worker {
     /**
      * Принимает очередное слово и сохраняет информацию о вхождениях букв в нем
      *
-     * @param words слово
+     * @param words список слов
      */
     public static Map<Character, Long> ConvertWordsToMap(List<String> words) {
         Map<Character, Long> result = new HashMap<>();

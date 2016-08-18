@@ -31,7 +31,8 @@ public class Work {
     }
 
     public static Map<Character, Long> DoWork(List<String> work, int ThreadNum){
-        List<String>[] tasks = PartitionList(work, ThreadNum);
+        int Subtasks = ThreadNum * 5;   //чтобы разделить работу на небольшие куски
+        List<String>[] tasks = PartitionList(work, Subtasks);
         ExecutorService pool = Executors.newFixedThreadPool(ThreadNum);
 
         List<Future<Map<Character, Long>>> futures = new ArrayList<>();
@@ -40,9 +41,9 @@ public class Work {
             Future<Map<Character, Long>> future = pool.submit(callable);
             futures.add(future);
         }
-        Map<Character, Long>[] Maps = new Map[ThreadNum];
+        Map<Character, Long>[] Maps = new Map[Subtasks];
 
-        for (int i = 0; i< ThreadNum; ++i) {
+        for (int i = 0; i< Subtasks; ++i) {
             try {
                 Maps[i] = futures.get(i).get();
             } catch (InterruptedException | ExecutionException e) {
