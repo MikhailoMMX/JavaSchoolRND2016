@@ -1,0 +1,24 @@
+Тестовая система: Intel Core i7 3770, 4 ядра / 8 потоков; DDR3 1333 МГц 16 Гб, двухканальный режим
+
+Входной файл: «Наследие» (Кристофер Паолини), перемешанная версия.
+4 072 160 букв
+
+Reading file time: 854 ms
+
+No threadPool:                   521 ms, checksum = 4072160
+Warm-up, 1 thread:               497 ms, checksum = 4072160
+Processing file with 1 threads:  468 ms, checksum = 4072160
+Processing file with 2 threads:  236 ms, checksum = 4072160
+Processing file with 3 threads:  166 ms, checksum = 4072160
+Processing file with 4 threads:  139 ms, checksum = 4072160
+Processing file with 5 threads:  125 ms, checksum = 4072160
+Processing file with 6 threads:  106 ms, checksum = 4072160
+Processing file with 7 threads:  99 ms,  checksum = 4072160
+Processing file with 8 threads:  95 ms,  checksum = 4072160
+Processing file with 9 threads:  95 ms,  checksum = 4072160
+Processing file with 10 threads: 94 ms,  checksum = 4072160
+Processing file with 11 threads: 95 ms,  checksum = 4072160
+Processing file with 12 threads: 94 ms,  checksum = 4072160
+Processing file with 13 threads: 95 ms,  checksum = 4072160
+Processing file with 14 threads: 94 ms,  checksum = 4072160
+Processing file with 15 threads: 96 ms,  checksum = 4072160
