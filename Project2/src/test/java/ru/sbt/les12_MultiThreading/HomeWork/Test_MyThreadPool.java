@@ -148,4 +148,24 @@ public class Test_MyThreadPool {
             set.add((long)fi.get());
         Assert.assertEquals(THREADS, set.size());
     }
+
+    @Test(expected = RuntimeException.class)
+    public void Test_Exception_1(){
+        pool.submit(new Callable() {
+            @Override
+            public Object call() throws Exception {
+                throw new Exception();
+            }
+        }).get();
+    }
+
+    @Test(expected = RuntimeException.class)
+    public void Test_Exception_2(){
+        pool.submit(new Callable() {
+            @Override
+            public Object call(){
+                throw new RuntimeException();
+            }
+        }).get();
+    }
 }

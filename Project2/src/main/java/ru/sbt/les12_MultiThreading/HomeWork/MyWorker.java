@@ -20,14 +20,16 @@ public class MyWorker implements Runnable {
         while(true){
             if (interrupting)
                 return;
+            Pair<Callable, MyFuture> pair = pool.nextTask();
+            if (pair == null)
+                continue;
             try {
-                Pair<Callable, MyFuture> pair = pool.nextTask();
-                if (pair == null)
-                    continue;
                 Object result = pair.getKey().call();
-                pair.getValue().Set(result);
+                pair.getValue().set(result);
+            } catch (RuntimeException re) {
+                pair.getValue().setException(re);
             } catch (Exception e) {
-                e.printStackTrace();
+                pair.getValue().setException(new RuntimeException(e));
             }
         }
     }

@@ -2,7 +2,6 @@ package ru.sbt.les12_MultiThreading.HomeWork;
 
 import ru.sbt.les11_MultiThreading.HomeWork.CallableWorker;
 
-import javax.swing.text.html.FormSubmitEvent;
 import java.util.*;
 
 //класс, который делит задачу на куски, выполняет ее в нашем пуле потоков
