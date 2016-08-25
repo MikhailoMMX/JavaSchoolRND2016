@@ -1,4 +1,4 @@
-package ru.sbt.les14_MultiThreading;
+package ru.sbt.les13_MultiThreading;
 
 import org.junit.Assert;
 import org.junit.Test;

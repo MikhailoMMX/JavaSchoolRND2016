@@ -1,4 +1,4 @@
-package ru.sbt.les14_MultiThreading;
+package ru.sbt.les13_MultiThreading;
 
 public class MyRunnable implements Runnable {
     private volatile boolean cancelling = false;

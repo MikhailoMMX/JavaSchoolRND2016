@@ -1,4 +1,4 @@
-package ru.sbt.les14_MultiThreading;
+package ru.sbt.les13_MultiThreading;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
