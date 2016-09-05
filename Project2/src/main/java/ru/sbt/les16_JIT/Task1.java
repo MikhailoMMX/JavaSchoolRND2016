@@ -15,3 +15,4 @@ public class Task1 {
         return "Value" + i;
     }
 }
+//-XX:+PrintCompilation -XX:+UnlockDiagnosticVMOptions -XX:+PrintInlining

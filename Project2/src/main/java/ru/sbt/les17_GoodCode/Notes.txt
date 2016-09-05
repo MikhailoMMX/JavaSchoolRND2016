@@ -1,0 +1,26 @@
+Принципы:
+KISS      - Keep it simple, stupid
+DRY (DIE) - Don't Repeat Yourself (Double Is Evil)
+YAG_NI    - You Ain't Gonna Need It
+
+Прежде чем начать писать что-то, надо написать под это тесты
+
+Правила именования
+http://www.oracle.com/technetwork/java/codeconventions-135099
+
+Принципы SOLID:
+S - Single responsibility
+O - Open/Close
+L - Liskov substitution
+I - Interface Segregation
+D - Dependency Inversion
+
+Предпочитайте композицию наследованию
+http://javarevisited.blogspot.com/2013/06/why-favor-composition-over-inheritance-java-oops-design.html
+
+Примеры плохого кода
+https://refactoring.guru/ru/smells/smells
+
+ДЗ: ЗАРЕФАКТОРИТЬ
+https://bitbucket.org/agoshkoviv/solid-homework/src/099989b0c76217689c4642242c87c1ac080dfc01/src/main/java/ru/sbt/bit/ood/solid/homework/SalaryHtmlReportNotifier.java?at=master&fileviewer=file-view-default
+https://bitbucket.org/agoshkoviv/patterns-homework-1/src/69a61334ea43ff4c3fd950a00095377cf1e3bfd4/src/main/java/ru/sbt/test/refactoring/?at=master
