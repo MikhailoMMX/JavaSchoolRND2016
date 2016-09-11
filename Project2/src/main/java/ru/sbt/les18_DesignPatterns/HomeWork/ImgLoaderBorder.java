@@ -16,6 +16,7 @@ public class ImgLoaderBorder extends ImgLoaderDecorator {
         Image img = super.loadImage(path);
         BufferedImage bImg = SwingFXUtils.fromFXImage(img, null);
         Graphics graphics = bImg.getGraphics();
+        graphics.setColor(Color.GREEN);
         graphics.drawRect(3,3, bImg.getWidth()-6, bImg.getHeight()-6);
         graphics.drawRect(4,4, bImg.getWidth()-8, bImg.getHeight()-8);
         return SwingFXUtils.toFXImage(bImg, null);
