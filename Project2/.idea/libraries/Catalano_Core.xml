@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/Lib/Catalano.Core.jar!/" />
       <root url="jar://$PROJECT_DIR$/Lib/Catalano.Image.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Lib/Catalano.Math.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

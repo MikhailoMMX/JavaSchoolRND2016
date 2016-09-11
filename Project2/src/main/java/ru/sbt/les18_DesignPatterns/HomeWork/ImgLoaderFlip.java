@@ -1,14 +1,17 @@
 package ru.sbt.les18_DesignPatterns.HomeWork;
 
+import Catalano.Imaging.Filters.Mirror;
 import Catalano.Imaging.FastBitmap;
-import Catalano.Imaging.Filters.GaussianBlur;
 import javafx.embed.swing.SwingFXUtils;
 import javafx.scene.image.Image;
 
 import java.awt.image.BufferedImage;
 
-public class ImgLoaderBlur extends ImgLoaderDecorator{
-    public ImgLoaderBlur(ImgLoader loader) {
+/**
+ * Created by MikhailoMMX on 11.09.2016.
+ */
+public class ImgLoaderFlip extends ImgLoaderDecorator {
+    public ImgLoaderFlip(ImgLoader loader) {
         super(loader);
     }
 
@@ -17,8 +20,8 @@ public class ImgLoaderBlur extends ImgLoaderDecorator{
         Image img = super.loadImage(path);
         BufferedImage bImg = SwingFXUtils.fromFXImage(img, null);
         FastBitmap fastBitmap = new FastBitmap(bImg);
-        GaussianBlur b = new GaussianBlur(5.0D);
-        b.applyInPlace(fastBitmap);
+        Mirror mirror = new Mirror(true, false);
+        mirror.applyInPlace(fastBitmap);
         return SwingFXUtils.toFXImage(fastBitmap.toBufferedImage(), null);
     }
 }

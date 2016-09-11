@@ -19,7 +19,7 @@ public class Controller implements Initializable {
     @FXML ImageView imgView;
 
     enum LoaderKind{
-        RESIZE, BW, BLUR, BORDER;
+        RESIZE, BW, BLUR, BORDER, FLIP;
     }
 
     @Override
@@ -31,7 +31,7 @@ public class Controller implements Initializable {
 
         imgView.addEventHandler(MouseEvent.MOUSE_CLICKED, new EventHandler<MouseEvent>() {
             List<LoaderKind> generateRandomList(){
-                List<LoaderKind> decorations = new ArrayList<LoaderKind>();
+                List<LoaderKind> decorations = new ArrayList<>();
                 if (ThreadLocalRandom.current().nextBoolean())
                     decorations.add(LoaderKind.BLUR);
                 if (ThreadLocalRandom.current().nextBoolean())
@@ -40,6 +40,8 @@ public class Controller implements Initializable {
                     decorations.add(LoaderKind.BW);
                 if (ThreadLocalRandom.current().nextBoolean())
                     decorations.add(LoaderKind.RESIZE);
+                if (ThreadLocalRandom.current().nextBoolean())
+                    decorations.add(LoaderKind.FLIP);
                 Collections.shuffle(decorations);
                 return decorations;
             }
@@ -48,17 +50,24 @@ public class Controller implements Initializable {
             public void handle(MouseEvent event) {
                 ImgLoader imgLoader = new DefaultImageLoader();
 
+                String title = "";
                 List<LoaderKind> decorations = generateRandomList();
-                for (LoaderKind loaderKind : decorations)
+                for (LoaderKind loaderKind : decorations){
                     switch (loaderKind){
-                        case BLUR:      imgLoader = new ImgLoaderBlur(imgLoader);   break;
-                        case BORDER:    imgLoader = new ImgLoaderBorder(imgLoader); break;
-                        case BW:        imgLoader = new ImgLoaderBW(imgLoader);     break;
-                        case RESIZE:    imgLoader = new ImgLoaderResize(imgLoader); break;
+                        case BLUR:      imgLoader = new ImgLoaderBlur(imgLoader);   title += "Blur";   break;
+                        case BORDER:    imgLoader = new ImgLoaderBorder(imgLoader); title += "Border"; break;
+                        case BW:        imgLoader = new ImgLoaderBW(imgLoader);     title += "B/W";    break;
+                        case RESIZE:    imgLoader = new ImgLoaderResize(imgLoader); title += "Resize"; break;
+                        case FLIP:      imgLoader = new ImgLoaderFlip(imgLoader);   title += "Flip";   break;
                     }
+                    title += ", ";
+                }
+
+                if (decorations.size()>0)
+                    title = title.substring(0, title.length()-2);
 
                 imgView.setImage(imgLoader.loadImage(IMG_FILE));
-
+                Main.setTitle(title);
                 event.consume();
             }
         });
