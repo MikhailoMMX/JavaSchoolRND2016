@@ -1,0 +1,12 @@
+Запускаем сервер:
+    java -cp Lib\h2-1.4.192.jar org.h2.tools.Server
+
+Создаем таблицу:
+    CREATE CACHED TABLE PUBLIC.DISTANCE(
+        STRING1 VARCHAR(256),
+        STRING2 VARCHAR(256),
+        DISTANCE INT
+    )
+
+Почистить таблицу:
+    delete from distance

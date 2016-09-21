@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentHashMap;
 public class InvocationHandlerCachingSeq implements InvocationHandler {
     private final Object delegate;
     private HashMap<MyTuple<String>, Integer> cache = new HashMap<>();
-    //private ConcurrentHashMap<MyTuple<String>, Integer> cache = new ConcurrentHashMap<>();
+    //private ConcurrentHashMap<Tuple<String>, Integer> cache = new ConcurrentHashMap<>();
     public InvocationHandlerCachingSeq(Object delegate) {
         this.delegate = delegate;
     }
