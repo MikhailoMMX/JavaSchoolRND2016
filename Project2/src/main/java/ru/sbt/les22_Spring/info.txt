@@ -1,0 +1,7 @@
+Литература
+    Евгений Борисов "Spring Потрошитель" на youtube
+    http://docs.spring.io/spring/docs/current/spring-framework-reference/htmlsingle/
+    Spring in action
+    Spring для профессионалов
+
+Домашнее задание:
