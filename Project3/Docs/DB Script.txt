@@ -1,0 +1,20 @@
+create table CLIENT(
+	ID bigint primary key,
+	NAME varchar2(50)
+);
+
+create table ACCOUNT(
+	ID bigint primary key,
+	SALDO decimal(18,2),
+	ACC_NUM varchar2(50),
+	CLIENT_ID bigint
+);
+
+create table DOCUMENT(
+	ID bigint primary key,
+	ACC_DT bigint,
+	ACC_CT bigint,
+	SUMMA decimal(18,2),
+	PURPOSE varchar2(100),
+	DOC_DATE DATETIME
+)
