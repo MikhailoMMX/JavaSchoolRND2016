@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+
+
+    <bean class="ru.microbyte.xml.PublisherBeanPostProcessor"/>
+
+    <bean class="ru.microbyte.xml.ProfilerBeanPostProcessor"/>
+
+    <bean class="ru.microbyte.xml.PhotoPrintService" id="photoPrintService">
+        <property name="printer" ref="paperPrinter"/>
+    </bean>
+
+    <bean class="ru.microbyte.xml.BookPrintService" id="bookPrintService">
+        <constructor-arg name="printer" ref="paperPrinter"/>
+    </bean>
+
+    <bean class="ru.microbyte.xml.PaperPrinter" id="paperPrinter"/>
+
+</beans>

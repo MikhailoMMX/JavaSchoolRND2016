@@ -20,3 +20,8 @@ Document: Long ID, Account accDT, Account AccCT, BigDecimal summa, String Purpos
     распечатывать выписку по клиенту, какие документы проводил (Имя клиента, номер счета, тип (дт/кт), сумма, сальдо после операции)
 
 Пока без Spring
+
+
+Николай Алименков — Босиком по граблям Hibernate
+
+Евгений Борисов spring data
