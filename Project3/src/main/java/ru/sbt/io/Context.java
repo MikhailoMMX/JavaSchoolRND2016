@@ -1,5 +1,7 @@
 package ru.sbt.io;
 
+import javafx.scene.media.VideoTrack;
+
 import java.sql.Connection;
 import java.util.*;
 
@@ -7,23 +9,25 @@ import java.util.*;
  * Контекст для состояний, обраватывающих команды пользователя
  */
 public class Context {
+    private static final String EXIT = "exit";
     private Scanner scanner;
     private Connection connection;
-    private Map<String, State> states = new LinkedHashMap<>();
+    public Map<String, State> states;
 
-    public Context(Scanner scanner, Connection connection) {
+    public Context() {
+    }
+
+    public void setScanner(Scanner scanner) {
         this.scanner = scanner;
+    }
+
+    public void setConnection(Connection connection) {
         this.connection = connection;
+    }
 
-        List<State> statesList = new ArrayList<>();
-        statesList.add(new AddClientState());
-        statesList.add(new AddAccountState());
-        statesList.add(new AddDocumentState());
-        statesList.add(new ShowClientsState());
-        statesList.add(new ShowAccountsState());
-        statesList.add(new ShowDocumentsState());
-
-        for (State state : statesList){
+    public void setStates(Set<State> statesSet){
+        states = new LinkedHashMap<>();
+        for (State state : statesSet){
             states.put(state.stateName(), state);
         }
     }
@@ -39,11 +43,18 @@ public class Context {
     public void printStates() {
         for (String stateName : states.keySet())
             System.out.println("\t"+stateName);
+        System.out.println("\t" + EXIT);
     }
 
-    public void readCommand(String command) {
-        command = command.trim().toLowerCase();
-        if (states.containsKey(command))
-            states.get(command).readCommand(this);
+    public void readCommands() {
+        while(true) {
+            System.out.println(">");
+            String command = scanner.nextLine().toLowerCase();
+            if (EXIT.equals(command))
+                break;
+            command = command.trim().toLowerCase();
+            if (states.containsKey(command))
+                states.get(command).readCommand(this);
+        }
     }
 }

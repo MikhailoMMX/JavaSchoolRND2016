@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean class="ru.sbt.Temp" id="dataSource" factory-method="getConnection"/>
+    <bean class="ru.sbt.Temp" id="scanner" factory-method="getScanner"/>
+
+    <bean class="ru.sbt.io.AddClientState"     id="addClientState" />
+    <bean class="ru.sbt.io.AddAccountState"    id="addAccountState"/>
+    <bean class="ru.sbt.io.AddDocumentState"   id="addDocumentState"/>
+    <bean class="ru.sbt.io.ShowClientsState"   id="showClientsState"/>
+    <bean class="ru.sbt.io.ShowAccountsState"  id="showAccountsState"/>
+    <bean class="ru.sbt.io.ShowDocumentsState" id="showDocumentsState"/>
+
+    <bean class="ru.sbt.io.Context">
+        <property name="scanner"><ref bean="scanner"/></property>
+        <property name="connection"><ref bean="dataSource"/></property>
+        <property name="states">
+            <set>
+                <ref bean="addClientState" />
+                <ref bean="addAccountState"/>
+                <ref bean="addDocumentState"/>
+                <ref bean="showClientsState"/>
+                <ref bean="showAccountsState"/>
+                <ref bean="showDocumentsState"/>
+            </set>
+        </property>
+    </bean>
+
+</beans>

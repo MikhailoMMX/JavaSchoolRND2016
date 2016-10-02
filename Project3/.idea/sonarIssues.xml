@@ -13,6 +13,31 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Launcher.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Printer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Printer2.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Project2/src/main/resources/context.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ru/sbt/Account.java">
           <value>
             <set />
@@ -53,6 +78,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
           <value>
             <set />
@@ -89,6 +119,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/context.xml">
           <value>
             <set />
           </value>

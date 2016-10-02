@@ -1,5 +1,7 @@
 package ru.sbt;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import ru.sbt.io.Context;
 
 import java.sql.*;
@@ -10,28 +12,16 @@ import java.util.Scanner;
  */
 public class Main {
     private static final String URL = "jdbc:h2:tcp://localhost/~/test";
-    private static final String EXIT = "exit";
 
     public static void main(String[] args) {
-        try (
-                Scanner scanner = new Scanner(System.in);
-                Connection connection = DriverManager.getConnection(URL, "sa", "")
-        ) {
-            Context stateContext = new Context(scanner, connection);
+        ApplicationContext appContext = new ClassPathXmlApplicationContext("context.xml");
+        Context stateContext = appContext.getBean(Context.class);
 
+        try {
             System.out.println("Commands:");
             stateContext.printStates();
-            System.out.println("\t" + EXIT);
-
-            while (true) {
-                System.out.print(">");
-                String command = scanner.nextLine().toLowerCase();
-                if (EXIT.equals(command))
-                    break;
-
-                stateContext.readCommand(command);
-            }
-        } catch (SQLException e) {
+            stateContext.readCommands();
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
