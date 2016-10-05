@@ -1,5 +1,7 @@
 package ru.sbt.io;
 
+import ru.sbt.data.Client;
+
 import java.sql.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -10,13 +12,10 @@ import java.util.logging.Logger;
 class ShowClientsState implements State {
     @Override
     public void readCommand(Context context) {
-        try{
-            PreparedStatement statement = context.getConnection().prepareStatement("select * from clients");
-            ResultSet resultSet = statement.executeQuery();
-            System.out.println("Clients:");
-            ResultSetPrinter.printResultSet(resultSet);
-        } catch (SQLException e) {
-            Logger.getGlobal().log(Level.SEVERE, "SQLException:",  e);
+        Iterable<Client> all = context.getClientRepository().findAll();
+        System.out.println("Clients:");
+        for(Client client:all){
+            System.out.println("[id="+client.getId() + ", name=" + client.getName()+"]");
         }
     }
 

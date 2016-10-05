@@ -1,18 +1,42 @@
 package ru.sbt.data;
 
+import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
 /**
   * Хранит информацию о документе
  */
-public class Document {
-    private final long id;
-    private final long accDT;
-    private final long accCT;
-    private final BigDecimal summa;
-    private final String purpose;
-    private final Date docDate;
+@Entity
+@Table(name = "DOCUMENTS")
+public class Document implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    private long id;
+
+    @ManyToOne
+    @JoinColumn(name = "ACC_DT_ID", referencedColumnName = "ID")
+    private Account accDT;
+
+    @ManyToOne
+    @JoinColumn(name = "ACC_CT_ID", referencedColumnName = "ID")
+    private Account accCT;
+
+    private BigDecimal summa;
+
+    private String purpose;
+
+    @Temporal(TemporalType.DATE)
+    @Column(name = "DOC_DATE")
+    private Date docDate;
+
+    /**
+     * Конструктор по-умолчанию
+     */
+    public Document() {
+    }
 
     /**
      * Конструктор для документа
@@ -23,7 +47,7 @@ public class Document {
      * @param purpose    назначение документа
      * @param docDate    дата и время документа
      */
-    public Document(long id, long accDT, long accCT, BigDecimal summa, String purpose, Date docDate) {
+    public Document(long id, Account accDT, Account accCT, BigDecimal summa, String purpose, Date docDate) {
         this.id = id;
         this.accDT = accDT;
         this.accCT = accCT;
@@ -40,7 +64,7 @@ public class Document {
      * @param summa      сумма
      * @param purpose    назначение документа
      */
-    public Document(long id, long accDT, long accCT, BigDecimal summa, String purpose) {
+    public Document(long id, Account accDT, Account accCT, BigDecimal summa, String purpose) {
         this.id = id;
         this.accDT = accDT;
         this.accCT = accCT;
@@ -61,7 +85,7 @@ public class Document {
      * Возвращает идентификатор счета дебета
      * @return идентификатор счета дебета
      */
-    public long getAccDT() {
+    public Account getAccDT() {
         return accDT;
     }
 
@@ -69,7 +93,7 @@ public class Document {
      * Возвращает идентификатор счета кредита
      * @return идентификатор счета кредита
      */
-    public long getAccCT() {
+    public Account getAccCT() {
         return accCT;
     }
 
@@ -95,5 +119,29 @@ public class Document {
      */
     public Date getDocDate() {
         return docDate;
+    }
+
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    public void setAccDT(Account accDT) {
+        this.accDT = accDT;
+    }
+
+    public void setAccCT(Account accCT) {
+        this.accCT = accCT;
+    }
+
+    public void setSumma(BigDecimal summa) {
+        this.summa = summa;
+    }
+
+    public void setPurpose(String purpose) {
+        this.purpose = purpose;
+    }
+
+    public void setDocDate(Date docDate) {
+        this.docDate = docDate;
     }
 }

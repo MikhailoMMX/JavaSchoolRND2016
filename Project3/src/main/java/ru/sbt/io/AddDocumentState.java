@@ -1,5 +1,10 @@
 package ru.sbt.io;
 
+import com.sun.corba.se.impl.oa.NullServantImpl;
+import org.springframework.transaction.annotation.Transactional;
+import ru.sbt.data.Account;
+import ru.sbt.data.Document;
+
 import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -12,59 +17,44 @@ import java.util.logging.Logger;
 /**
  * Состояние обрабатывает команду добавления документа
  */
+@Transactional
 class AddDocumentState implements State {
     @Override
     public void readCommand(Context context) {
-        try{
-            //TODO create document class
-            //TODO extract DB interaction
-            System.out.print("Enter debit account number: ");
-            long accDT = context.getScanner().nextLong();
-            System.out.print("Enter credit account number: ");
-            long accCT = context.getScanner().nextLong();
-            System.out.print("Enter summa: ");
-            BigDecimal summa = context.getScanner().nextBigDecimal();
-            context.getScanner().nextLine();
-            System.out.print("Enter purpose: ");
-            String purpose = context.getScanner().nextLine();
-            boolean autoCommit = context.getConnection().getAutoCommit();
-            context.getConnection().setAutoCommit(false);
-            PreparedStatement statement = context.getConnection().prepareStatement("insert into documents (ACC_DT, ACC_CT, SUMMA, PURPOSE, DOC_DATE) values (?, ?, ?, ?, ?)");
-            statement.setLong(1, accDT);
-            statement.setLong(2, accCT);
-            statement.setBigDecimal(3, summa);
-            statement.setString(4, purpose);
-            statement.setDate(5, new java.sql.Date(new Date().getTime()));
-            statement.execute();
-
-            BigDecimal dtSaldo = getSaldo(context.getConnection(), accDT);
-            BigDecimal ctSaldo = getSaldo(context.getConnection(), accCT);
-            dtSaldo = dtSaldo.add(summa);
-            ctSaldo = ctSaldo.subtract(summa);
-            setSaldo(context.getConnection(), accDT, dtSaldo);
-            setSaldo(context.getConnection(), accCT, ctSaldo);
-
-            context.getConnection().commit();
-            context.getConnection().setAutoCommit(autoCommit);
-            System.out.println("Document added");
-        } catch (SQLException e) {
-            Logger.getGlobal().log(Level.SEVERE, "SQLException:",  e);
+        System.out.print("Enter debit account number: ");
+        String accDTNum = context.getScanner().nextLine();
+        Account accDT = context.getAccountRepository().findByAccNum(accDTNum);
+        if (accDT == null){
+            System.out.println("No such account");
+            return;
         }
-    }
-
-    private BigDecimal getSaldo(Connection connection, long id) throws SQLException {
-        PreparedStatement getSaldoStatement = connection.prepareStatement("select saldo from accounts where id = ?");
-        getSaldoStatement.setLong(1, id);
-        ResultSet resultSet = getSaldoStatement.executeQuery();
-        resultSet.absolute(1);
-        return resultSet.getBigDecimal(1);
-    }
-
-    private void setSaldo(Connection connection, long id, BigDecimal newSaldo) throws SQLException {
-        PreparedStatement setSaldoStatement = connection.prepareStatement("update accounts set saldo = ? where id = ?");
-        setSaldoStatement.setBigDecimal(1, newSaldo);
-        setSaldoStatement.setLong(2, id);
-        setSaldoStatement.execute();
+        System.out.print("Enter credit account number: ");
+        String accCTNum = context.getScanner().nextLine();
+        Account accCT = context.getAccountRepository().findByAccNum(accCTNum);
+        if (accCT == null){
+            System.out.println("No such account");
+            return;
+        }
+        System.out.print("Enter summa: ");
+        BigDecimal summa = context.getScanner().nextBigDecimal();
+        context.getScanner().nextLine();
+        if (accCT.getSaldo().compareTo(summa)<0){
+            System.out.println("Not enough saldo on credit account");
+            return;
+        }
+        System.out.print("Enter purpose: ");
+        String purpose = context.getScanner().nextLine();
+        Document doc = new Document();
+        doc.setAccCT(accCT);
+        doc.setAccDT(accDT);
+        doc.setDocDate(new Date());
+        doc.setPurpose(purpose);
+        doc.setSumma(summa);
+        context.getDocumentRepository().save(doc);
+        accCT.setSaldo(accCT.getSaldo().subtract(summa));
+        accDT.setSaldo(accDT.getSaldo().add(summa));
+        context.getAccountRepository().save(accDT);
+        context.getAccountRepository().save(accCT);
     }
 
     @Override

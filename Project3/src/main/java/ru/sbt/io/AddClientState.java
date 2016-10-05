@@ -1,5 +1,8 @@
 package ru.sbt.io;
 
+import org.springframework.transaction.annotation.Transactional;
+import ru.sbt.data.Client;
+
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
@@ -9,19 +12,13 @@ import java.sql.SQLException;
  */
 class AddClientState implements State {
     @Override
+    @Transactional
     public void readCommand(Context context) {
-        //TODO create client class
-        //TODO extract DB interaction
-        try {
-            System.out.print("Enter name: ");
-            String name = context.getScanner().nextLine();
-            PreparedStatement statement = context.getConnection().prepareStatement("insert into clients (NAME) values (?)");
-            statement.setString(1, name);
-            statement.execute();
-            System.out.println("Client " + name + " added");
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
+        System.out.print("Enter name: ");
+        String name = context.getScanner().nextLine();
+        Client client = new Client();
+        client.setName(name);
+        context.getClientRepository().save(client);
     }
 
     @Override

@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51be48de-bffb-4097-8fe9-1f81ae410207" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Printer2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project2/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/../Project2/.idea/sonarIssues.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Launcher.java" afterPath="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Launcher.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Printer.java" afterPath="$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les22_Spring/example1/Printer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Project2/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/../Project2/src/main/resources/context.xml" />
+    <list default="true" id="51be48de-bffb-4097-8fe9-1f81ae410207" name="Default" comment="Project 3 Rewritten for Hibernate/JPA">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_jsr250_api_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_enterprise_cdi_api_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_geronimo_specs_geronimo_jta_1_1_spec_1_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_9.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_3_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_interceptor_jboss_interceptors_api_1_1_spec_1_0_0_Beta1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_21.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_10_4_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_2_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/Config.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/dao/AccountRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/dao/ClientRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/dao/DocumentRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/repository/AccountRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/repository/ClientRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Project3.iml" afterPath="$PROJECT_DIR$/Project3.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/Main.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Account.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Account.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java" afterPath="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/context.xml" afterPath="$PROJECT_DIR$/src/main/resources/context.xml" />
     </list>
     <ignored path="Project3.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,40 +74,32 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Temp.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="349">
+              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="context.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+            <state relative-caret-position="137">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -89,15 +108,19 @@
       <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#787#788#0" expanded="false" />
-                <element signature="e#817#818#0" expanded="false" />
-                <element signature="e#851#852#0" expanded="false" />
-                <element signature="e#884#885#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="196">
+              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hibernate.cfg.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,9 +128,21 @@
       <file leaf-file-name="AddAccountState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="395">
+              <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/AccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,36 +150,30 @@
       <file leaf-file-name="AddDocumentState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientRepository.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/ClientRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddClientState.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#3069#3070#0" expanded="false" />
-                <element signature="e#3106#3107#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShowDocumentsState.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#728#729#0" expanded="false" />
-                <element signature="e#767#768#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="State.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -155,8 +184,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -172,26 +201,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Document.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/DataBaseConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Data/Document.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ResultSetPrinter.java" />
         <option value="$PROJECT_DIR$/sonar-project.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/SessionFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/BankDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/DaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/repository/AccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/repository/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/Connector.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/AccoutRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Account.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/DocumentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/Config.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/ClientRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/dao/AccountRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java" />
       </list>
     </option>
   </component>
@@ -239,7 +280,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -247,6 +287,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Project3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -327,685 +371,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="datasource&#9;PSI&#9;JAVA://javax.sql.DataSource&#10;drivermana&#9;FILE&#9;jar://C:/Users/MikhailoMMX/.m2/repository/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\СберТех\IntelliJ_Idea_Projects\JavaSchoolRND2016\Project3\Docs" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Project2/src/main/java/ru/sbt/les23_JDBC/Info.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Project2/Files/SpringiA4_SourceCode.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Project2/Files/spring_4_pro.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/.idea/vcs.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/jdbc/jdbc.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/jdbc/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/jdbc/src/main/java/ru/microbyte/JdbcTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/jdbc/src/main/resources/logback.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/lectures.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/patterns.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/Duck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/DuckAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/DuckTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/Turkey.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/TurkeyAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/TurkeyTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/ducks/WildTurkey.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/iterenum/EI.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/iterenum/EnumerationIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/iterenum/EnumerationIteratorTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/iterenum/IteratorEnumeration.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/adapter/iterenum/IteratorEnumerationTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BPMObserver.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BeatBar.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BeatController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BeatModel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BeatModelInterface.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/BeatObserver.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/ControllerInterface.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/DJTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/DJView.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/HeartAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/HeartController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/HeartModel.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/HeartModelInterface.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combined/djview/HeartTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/Goose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/GooseAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/adapter/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/AbstractDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/CountingDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/DuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/Flock.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/Goose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/GooseAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/QuackCounter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/composite/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/Goose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/GooseAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/QuackCounter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/decorator/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/ducks/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/AbstractDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/CountingDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/DuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/Goose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/GooseAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/QuackCounter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/factory/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/.QuackDecorator.java.swp</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/AbstractDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/CountingDuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/DuckCall.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/DuckFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/DuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Flock.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Goose.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/GooseAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Observable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Observer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/QuackCounter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/QuackObservable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Quackable.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/Quackologist.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/RedheadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/combining/observer/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/CeilingFan.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/CeilingFanHighCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/CeilingFanMediumCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/CeilingFanOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/Command.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/Hottub.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/HottubOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/HottubOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/Light.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/LightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/LightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/LivingroomLightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/LivingroomLightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/MacroCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/NoCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/RemoteControl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/RemoteLoader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/Stereo.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/StereoOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/StereoOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/StereoOnWithCDCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/TV.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/TVOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/party/TVOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/CeilingFan.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/CeilingFanOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/CeilingFanOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/Command.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/GarageDoor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/GarageDoorDownCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/GarageDoorUpCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/Hottub.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/HottubOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/HottubOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/Light.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/LightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/LightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/LivingroomLightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/LivingroomLightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/NoCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/RemoteControl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/RemoteLoader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/Stereo.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/StereoOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/StereoOnWithCDCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/remote/TV.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/Command.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/GarageDoor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/GarageDoorOpenCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/Light.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/LightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/LightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/RemoteControlTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/simpleremote/SimpleRemoteControl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/CeilingFan.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/CeilingFanHighCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/CeilingFanLowCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/CeilingFanMediumCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/CeilingFanOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/Command.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/DimmerLightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/DimmerLightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/Light.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/LightOffCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/LightOnCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/NoCommand.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/RemoteControlWithUndo.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/command/undo/RemoteLoader.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menu/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menu/MenuComponent.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menu/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menu/MenuTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menu/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/CompositeIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/MenuComponent.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/MenuTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/NullIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/composite/menuiterator/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/io/InputTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/io/LowerCaseInputStream.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Beverage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/CondimentDecorator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/DarkRoast.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Decaf.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Espresso.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/HouseBlend.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Milk.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Mocha.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Soy.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/StarbuzzCoffee.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/decorator/starbuzz/Whip.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/Amplifier.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/CdPlayer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/DvdPlayer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/HomeTheaterFacade.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/HomeTheaterTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/PopcornPopper.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/Projector.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/Screen.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/TheaterLights.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/facade/hometheater/Tuner.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/BlackOlives.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Cheese.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/CheesePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ChicagoPizzaIngredientFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ChicagoPizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ClamPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Clams.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Dough.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Eggplant.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/FreshClams.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/FrozenClams.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Garlic.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/MarinaraSauce.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/MozzarellaCheese.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Mushroom.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/NYPizzaIngredientFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/NYPizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Onion.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ParmesanCheese.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Pepperoni.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/PepperoniPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Pizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/PizzaIngredientFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/PizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/PizzaTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/PlumTomatoSauce.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/RedPepper.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ReggianoCheese.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Sauce.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/SlicedPepperoni.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Spinach.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ThickCrustDough.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/ThinCrustDough.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/VeggiePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzaaf/Veggies.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/ChicagoPizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/ChicagoStyleCheesePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/ChicagoStyleClamPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/ChicagoStylePepperoniPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/ChicagoStyleVeggiePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/DependentPizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/NYPizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/NYStyleCheesePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/NYStyleClamPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/NYStylePepperoniPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/NYStyleVeggiePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/Pizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/PizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzafm/PizzaTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/CheesePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/ClamPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/PepperoniPizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/Pizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/PizzaStore.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/PizzaTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/SimplePizzaFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/factory/pizzas/VeggiePizza.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/AlternatingDinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/ArrayIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/ArrayListIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/DinerMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/DinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/Iterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/MenuTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/PancakeHouseMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/PancakeHouseMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermerger/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/AlternatingDinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/CafeMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/DinerMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/DinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/MenuTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/PancakeHouseMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergercafe/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/AlternatingDinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/DinerMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/DinerMenuIterator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/MenuTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/PancakeHouseMenu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/dinermergeri/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/transition/Menu.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/transition/MenuItem.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/iterator/transition/Waitress.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/swing/SwingObserverExample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/CurrentConditionsDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/DisplayElement.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/ForecastDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/HeatIndexDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/Observer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/StatisticsDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/Subject.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/WeatherData.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/WeatherStation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weather/WeatherStationHeatIndex.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/CurrentConditionsDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/DisplayElement.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/ForecastDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/HeatIndexDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/StatisticsDisplay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/WeatherData.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/WeatherStation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/observer/weatherobservable/WeatherStationHeatIndex.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/GumballMachine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/GumballMachineRemote.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/GumballMachineTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/GumballMonitor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/GumballMonitorTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/HasQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/NoQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/SoldOutState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/SoldState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/State.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumball/WinnerState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/GumballMachine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/GumballMachineTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/GumballMonitor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/HasQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/NoQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/SoldOutState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/SoldState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/State.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/gumballmonitor/WinnerState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/javaproxy/MatchMakingTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/javaproxy/NonOwnerInvocationHandler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/javaproxy/OwnerInvocationHandler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/javaproxy/PersonBean.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/javaproxy/PersonBeanImpl.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/virtualproxy/ImageComponent.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/virtualproxy/ImageProxy.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/proxy/virtualproxy/ImageProxyTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/chocolate/ChocolateBoiler.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/chocolate/ChocolateController.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/classic/Singleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/dcl/Singleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/dcl/SingletonClient.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/stat/Singleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/stat/SingletonClient.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/subclass/CoolerSingleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/subclass/HotterSingleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/subclass/Singleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/subclass/SingletonTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/singleton/threadsafe/Singleton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumball/GumballMachine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumball/GumballMachineTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/GumballMachine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/GumballMachineTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/HasQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/NoQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/SoldOutState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/SoldState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstate/State.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/GumballMachine.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/GumballMachineTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/HasQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/NoQuarterState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/SoldOutState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/SoldState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/State.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/state/gumballstatewinner/WinnerState.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/DecoyDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/Duck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/FakeQuack.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/FlyBehavior.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/FlyNoWay.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/FlyRocketPowered.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/FlyWithWings.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/MallardDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/MiniDuckSimulator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/MiniDuckSimulator1.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/ModelDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/MuteQuack.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/Quack.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/QuackBehavior.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/RedHeadDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/RubberDuck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/strategy/Squeak.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/applet/AppletSource.txt</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/applet/MyApplet.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/BeverageTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/CaffeineBeverage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/CaffeineBeverageWithHook.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/Coffee.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/CoffeeWithHook.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/Tea.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/barista/TeaWithHook.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/frame/MyFrame.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/simplebarista/Barista.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/simplebarista/Coffee.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/simplebarista/Tea.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/sort/Duck.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/headfirst/templatemethod/sort/DuckSortTestDrive.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/App.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/adapter/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/adapter/JavaRaster.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/adapter/VectorGraphicsInterface.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/adapter/VerctorFromRasterAdapter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/adapter/VerctorFromRasterAdapter2.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/chain/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/command/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Circle.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Frame.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Shape.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Square.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/composite/Triangle.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/io/SpyOutputStream.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/io/Test.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/AbstractDecorator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/BracketDecorator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/Printer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/PrinterInterface.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/decorator/printer/QuotesDecorator.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/observer/MeteoStation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/main/java/ru/microbyte/strategy/Client.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/patterns/src/test/java/ru/microbyte/AppTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/plain-jdbc.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/java/com/apress/prospring4/ch6/Contact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/java/com/apress/prospring4/ch6/ContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/java/com/apress/prospring4/ch6/PlainContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/java/com/apress/prospring4/ch6/PlainJdbcSample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/resources/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/resources/META-INF/sql/schema.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/resources/META-INF/sql/test-data.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/plain-jdbc/src/main/resources/log4j.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/spring-jdbc-annotations.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/AnnotationJdbcDaoSample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/Contact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/ContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/ContactTelDetail.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/InsertContact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/InsertContactTelDetail.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/JdbcContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/SelectAllContacts.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/SelectContactByFirstName.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/StoredFunctionFirstNameById.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/java/com/apress/prospring4/ch6/UpdateContact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/config/jdbc.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/spring/app-context-annotation.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/spring/datasource-dbcp.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/sql/schema.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/sql/stored-function.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/META-INF/sql/test-data.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-annotations/src/main/resources/log4j.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/spring-jdbc-namedparam.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/java/com/apress/prospring4/ch6/Contact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/java/com/apress/prospring4/ch6/ContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/java/com/apress/prospring4/ch6/ContactTelDetail.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/java/com/apress/prospring4/ch6/JdbcContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/java/com/apress/prospring4/ch6/JdbcContactDaoSample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/resources/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/resources/META-INF/spring/app-context-xml.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/resources/META-INF/sql/schema.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/resources/META-INF/sql/test-data.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-namedparam/src/main/resources/log4j.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/spring-jdbc-resultsetextractor.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/java/com/apress/prospring4/ch6/Contact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/java/com/apress/prospring4/ch6/ContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/java/com/apress/prospring4/ch6/ContactTelDetail.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/java/com/apress/prospring4/ch6/JdbcContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/java/com/apress/prospring4/ch6/JdbcContactDaoSample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/resources/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/resources/META-INF/spring/app-context-xml.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/resources/META-INF/sql/schema.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/resources/META-INF/sql/test-data.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-resultsetextractor/src/main/resources/log4j.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/spring-jdbc-rowmapper.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/java/com/apress/prospring4/ch6/Contact.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/java/com/apress/prospring4/ch6/ContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/java/com/apress/prospring4/ch6/ContactTelDetail.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/java/com/apress/prospring4/ch6/JdbcContactDao.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/java/com/apress/prospring4/ch6/JdbcContactDaoSample.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/resources/META-INF/MANIFEST.MF</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/resources/META-INF/spring/app-context-xml.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/resources/META-INF/sql/schema.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/resources/META-INF/sql/test-data.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring-jdbc-rowmapper/src/main/resources/log4j.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/spring.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/Agent.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/AgentFinder.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/AgentFinderFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodServiceClient.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodServiceGuice.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodServiceJSR330.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodServiceWithDI.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/HollywoodServiceWithFactory.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/MurmurMessage.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/SpreadsheetAgentFinder.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/hollywood/WebServiceAgentFinder.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/simple/ApplicationConfig.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/simple/Launcher.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/simple/Quotes.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/simple/TerminatorQuotes.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/java/ru/microbyte/simple/WowQuotes.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring/src/main/resources/context.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/pom.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/spring_2.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/ApplicationConfig.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/IPrinter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/Launcher.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/Printer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/ProfileAnnotaionBeanPostProcessor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/ProfileAnnotation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/PropertyAnnotaionBeanPostProcessor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/PropertyAnnotation.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/RandomNumber.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/java/RandomNumberHolder.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/BookPrintService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/Launcher.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PaperPrinter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PhotoPrintService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PrintData.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PrintService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/Printer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PrinterManager.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PrintingLog.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/ProfilerBeanPostProcessor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/Profiling.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/Publisher.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/PublisherBeanPostProcessor.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/SpringClient.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/StrangeData.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/TShirtPrintService.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/TShirtPrinter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/java/ru/microbyte/xml/TestPrinter.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/resources/config.properties</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/resources/context.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/main/resources/logback.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/test/java/ru/microbyte/xml/PhotoPrintServiceTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Spring_JDBC/spring_2/src/test/resoursec/context-test.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1305,7 +686,14 @@
       <option name="project" value="LOCAL" />
       <updated>1475151804917</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project 3 Few updates (spring)">
+      <created>1475418573697</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475418573697</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1323,16 +711,18 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27985075" sideWeight="0.6703755" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1348,11 +738,9 @@
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1386,11 +774,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project 3 Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project 3 Initial commit" />
+    <MESSAGE value="Project 3 Few updates (spring)" />
+    <MESSAGE value="Project 3 Rewritten for Hibernate/JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 3 Rewritten for Hibernate/JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1399,451 +789,437 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar!/org/springframework/orm/jpa/vendor/Database.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.192/h2-1.4.192.jar!/org/h2/jdbc/JdbcConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="63" column="13" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.192/h2-1.4.192.jar!/org/h2/Driver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar!/org/springframework/orm/jpa/LocalContainerEntityManagerFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="34" selection-end-line="65" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.192/h2-1.4.192.jar!/org/h2/jdbcx/JdbcDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar!/org/springframework/orm/jpa/vendor/HibernateJpaVendorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar!/org/springframework/jdbc/datasource/AbstractDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar!/org/springframework/jdbc/datasource/AbstractDriverBasedDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" column="68" selection-start-line="14" selection-start-column="68" selection-end-line="14" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans-3.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="506" column="4" selection-start-line="506" selection-start-column="4" selection-end-line="506" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/repository/AccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/repository/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="320" column="0" selection-start-line="320" selection-start-column="0" selection-end-line="320" selection-end-column="0" />
+          <folding>
+            <element signature="e#16240#16470#0" expanded="true" />
+            <element signature="e#16469#16470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="162" column="0" selection-start-line="162" selection-start-column="0" selection-end-line="162" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding>
+            <element signature="e#8349#8842#0" expanded="true" />
+            <element signature="e#8841#8842#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="592" column="0" selection-start-line="592" selection-start-column="0" selection-end-line="592" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="471" column="0" selection-start-line="471" selection-start-column="0" selection-end-line="471" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-orm/4.3.2.RELEASE/spring-orm-4.3.2.RELEASE.jar!/org/springframework/orm/hibernate4/LocalSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+          <folding>
+            <element signature="e#9648#9649#0" expanded="true" />
+            <element signature="e#9690#9691#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.3.2.RELEASE/spring-beans-4.3.2.RELEASE.jar!/org/springframework/beans/factory/support/SimpleInstantiationStrategy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/Connector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        <state relative-caret-position="443">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar!/org/springframework/jdbc/datasource/SingleConnectionDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-jdbc/4.3.2.RELEASE/spring-jdbc-4.3.2.RELEASE.jar!/org/springframework/jdbc/datasource/DriverManagerDataSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
-            <element signature="e#3106#3107#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Main.java">
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/javax/sql/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="197">
+          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.4.RELEASE/spring-data-commons-1.12.4.RELEASE.jar!/org/springframework/data/repository/Repository.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ResultSetPrinter.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GenerationType.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/GeneratedValue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
-            <element signature="e#3106#3107#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ResultSetPrinter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
-            <element signature="e#3106#3107#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/DataBaseConnection.java" />
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/util/logging/Logger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="718" column="16" selection-start-line="718" selection-start-column="16" selection-end-line="718" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/sql/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/lang/System.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="883" column="16" selection-start-line="883" selection-start-column="16" selection-end-line="883" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/data/Account.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/DaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ResultSetPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/data/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/data/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/DocumentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="75" selection-start-line="5" selection-start-column="75" selection-end-line="5" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowAccountsState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/1.12.4.RELEASE/spring-data-commons-1.12.4.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="197" column="23" selection-start-line="197" selection-start-column="23" selection-end-line="197" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.3.Final/hibernate-core-5.2.3.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="619" column="16" selection-start-line="619" selection-start-column="16" selection-end-line="619" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/EntityManagerFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.3.2.RELEASE/spring-tx-4.3.2.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowClientsState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/ShowDocumentsState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#728#729#0" expanded="false" />
-            <element signature="e#767#768#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="1221" column="12" selection-start-line="1221" selection-start-column="12" selection-end-line="1221" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="41" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#3069#3070#0" expanded="false" />
-            <element signature="e#3106#3107#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/sql/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="83" column="17" selection-start-line="83" selection-start-column="17" selection-end-line="83" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="50" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="221">
+          <caret line="17" column="86" selection-start-line="17" selection-start-column="86" selection-end-line="17" selection-end-column="86" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="222">
+          <caret line="24" column="81" selection-start-line="24" selection-start-column="81" selection-end-line="24" selection-end-column="81" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Temp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="137">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddClientState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="20" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/ClientRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#787#788#0" expanded="false" />
-            <element signature="e#817#818#0" expanded="false" />
-            <element signature="e#851#852#0" expanded="false" />
-            <element signature="e#884#885#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddAccountState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="395">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/context.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/dao/AccountRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_05/src.zip!/java/math/BigDecimal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="2622" column="15" selection-start-line="2622" selection-start-column="15" selection-end-line="2622" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/AddDocumentState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/sbt/io/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -1913,11 +1289,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.h2database:h2:1.4.192</last-edited>
+          <last-edited>Maven: javax.el:el-api:2.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.57816094" />
               </list>
             </option>
           </splitter-proportions>

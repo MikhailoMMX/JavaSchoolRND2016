@@ -1,11 +1,25 @@
 package ru.sbt.data;
 
+import javax.persistence.*;
+import java.io.Serializable;
+
 /**
   * Хранит информацию о клиенте
  */
-public class Client {
-    private final long id;
-    private final String name;
+@Entity
+@Table(name = "CLIENTS")
+public class Client implements Serializable{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    private long id;
+    private String name;
+
+    /**
+     * Конструктор по-умолчанию
+     */
+    public Client() {
+    }
 
     /**
      *
@@ -31,5 +45,21 @@ public class Client {
      */
     public String getName() {
         return name;
+    }
+
+    /**
+     * Устанавливает идентификатор
+     * @param id идентификатор
+     */
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    /**
+     * Устанавливает имя клиента
+     * @param name имя клиента
+     */
+    public void setName(String name) {
+        this.name = name;
     }
 }

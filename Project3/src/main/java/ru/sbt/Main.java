@@ -1,21 +1,29 @@
 package ru.sbt;
 
+import org.hibernate.SessionFactory;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import ru.sbt.dao.ClientRepository;
 import ru.sbt.io.Context;
 
+import javax.persistence.EntityManagerFactory;
+import javax.sql.DataSource;
 import java.sql.*;
 import java.util.Scanner;
 
 /**
  * Главный класс приложения
  */
+@ComponentScan("ru.sbt.data")
 public class Main {
     private static final String URL = "jdbc:h2:tcp://localhost/~/test";
 
     public static void main(String[] args) {
         ApplicationContext appContext = new ClassPathXmlApplicationContext("context.xml");
         Context stateContext = appContext.getBean(Context.class);
+        SessionFactory sessionFactory = appContext.getBean(SessionFactory.class);
+        EntityManagerFactory emf = (EntityManagerFactory)appContext.getBean("entityManagerFactory");
 
         try {
             System.out.println("Commands:");
@@ -24,6 +32,9 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        emf.close();
+        sessionFactory.close();
     }
 
     //TODO report

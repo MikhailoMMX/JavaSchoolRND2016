@@ -1,28 +1,49 @@
 package ru.sbt.data;
 
+import javax.persistence.*;
+import java.io.Serializable;
 import java.math.BigDecimal;
 
 /**
  * Хранит информацию о счете клиента
  */
-public class Account {
-    private final long id;
+@Entity
+@Table(name = "ACCOUNTS")
+public class Account implements Serializable {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "ID")
+    private long id;
+
     private BigDecimal saldo;
-    private final String accNum;
-    private final long clientId;
+
+    @Column(name = "ACC_NUM")
+    private String accNum;
+
+    @ManyToOne
+    @JoinColumn(name = "CLIENT_ID", referencedColumnName = "ID")
+    private Client client;
+
+
+    /**
+     * Конструктор по-умолчанию
+     */
+    public Account() {
+
+    }
 
     /**
      * Конструктор для счета
      * @param id          идентификатор счета
      * @param saldo       сальдо
      * @param accNum      номер счета
-     * @param clientId    идентификатор клиента
+     * @param client      клиент
      */
-    public Account(long id, BigDecimal saldo, String accNum, long clientId) {
+    public Account(long id, BigDecimal saldo, String accNum, Client client) {
         this.id = id;
         this.saldo = saldo;
         this.accNum = accNum;
-        this.clientId = clientId;
+        this.client = client;
     }
 
     /**
@@ -50,11 +71,11 @@ public class Account {
     }
 
     /**
-     * Возвращает идентификатор клиента
-     * @return Идентификатор клиента
+     * Возвращает клиента
+     * @return клиент
      */
-    public long getClient() {
-        return clientId;
+    public Client getClient() {
+        return client;
     }
 
     /**
@@ -63,5 +84,29 @@ public class Account {
      */
     public void setSaldo(BigDecimal saldo) {
         this.saldo = saldo;
+    }
+
+    /**
+     * устанавливает идентификатор
+     * @param id идентификатор
+     */
+    public void setId(long id) {
+        this.id = id;
+    }
+
+    /**
+     * Устанавливает номер счета
+     * @param accNum номер счета
+     */
+    public void setAccNum(String accNum) {
+        this.accNum = accNum;
+    }
+
+    /**
+     * Устанавливает клиента
+     * @param client клиент
+     */
+    public void setClient(Client client) {
+        this.client = client;
     }
 }

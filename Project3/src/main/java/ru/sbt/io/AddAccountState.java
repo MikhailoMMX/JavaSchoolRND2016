@@ -1,7 +1,10 @@
 package ru.sbt.io;
 
 import org.h2.command.dml.Select;
+import ru.sbt.data.Account;
+import ru.sbt.data.Client;
 
+import java.math.BigDecimal;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -15,33 +18,29 @@ import java.util.logging.Logger;
 class AddAccountState implements State {
     @Override
     public void readCommand(Context context) {
-        try{
-            //TODO create account class
-            //TODO extract DB interaction
-            //TODO generate account number
-            System.out.print("Enter account number: ");
-            String accNum = context.getScanner().nextLine();
+        System.out.print("Enter client name: ");
+        String name = context.getScanner().nextLine();
+        Client client = context.getClientRepository().findByName(name);
+        if (client != null){
+            boolean accNumNotOk;
+            String accNum;
+            do {
+                System.out.print("Enter account number: ");
+                accNum = context.getScanner().nextLine();
+                Account foundByAccNum = context.getAccountRepository().findByAccNum(accNum);
+                accNumNotOk = foundByAccNum != null;
+                if (accNumNotOk)
+                    System.out.println("Account number already exists (must be unique)");
+            }while (accNumNotOk);
 
-            System.out.print("Enter client name: ");
-            String name = context.getScanner().nextLine();
-            long id = getIdByName(context.getConnection(), name);
-
-            PreparedStatement statement = context.getConnection().prepareStatement("insert into accounts (SALDO, ACC_NUM, CLIENT_ID) values (0, ?, ?)");
-            statement.setString(1, accNum);
-            statement.setLong(2, id);
-            statement.execute();
-            System.out.println("Account " + accNum + " added for client " + name);
-        } catch (SQLException e) {
-            Logger.getGlobal().log(Level.SEVERE, "SQLException:",  e);
+            Account account = new Account();
+            account.setClient(client);
+            account.setSaldo(new BigDecimal(0));
+            account.setAccNum(accNum);
+            context.getAccountRepository().save(account);
         }
-    }
-
-    private long getIdByName(Connection connection, String name) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("select id from clients where name = ?");
-        preparedStatement.setString(1, name);
-        ResultSet resultSet = preparedStatement.executeQuery();
-        resultSet.absolute(1);
-        return resultSet.getLong(1);
+        else
+            System.out.println("No such client");
     }
 
     @Override
