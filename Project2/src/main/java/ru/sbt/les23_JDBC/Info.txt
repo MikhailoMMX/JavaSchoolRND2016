@@ -25,3 +25,6 @@ Document: Long ID, Account accDT, Account AccCT, BigDecimal summa, String Purpos
 Николай Алименков — Босиком по граблям Hibernate
 
 Евгений Борисов spring data
+
+ДЗ:
+Переписать все то же самое, но на Hibernate
