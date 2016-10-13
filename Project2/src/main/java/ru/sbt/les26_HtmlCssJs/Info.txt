@@ -1,0 +1,33 @@
+AOShapovalova.SBT@sberbank.ru
+Прислать резюме
+
+https://docs.google.com/presentation/d/1cVA6McVbIZaXxaCnLjIa63oLMhIRMJBhZWyoB6NluEM/edit#slide=id.g1787cec056_0_944
+
+node.js
+Необходимо скачать node.exe с сайта:
+http://nodejs.org/dist/latest/win-x64/ (для 64-битной сборки)
+И распаковать в локальную папку, например:
+C:\Users\OUT-Surname-NP\node\
+
+npm
+Зайти на сайт https://github.com/npm/npm/releases, скачать актуальную
+версию в виде zip-архива и распаковать в локальную папку, например:
+C:\Users\OUT-Surname-NP\npm-3.10.7
+
+После того, как все нужные пакеты распакованы в локальную папку,
+необходимо добавить папки, содержащие их exe в локальную переменную
+PATH. Для этого:
+· Пуск –> Выполнить
+· rundll32 sysdm.cpl,EditEnvironmentVariables
+· Переменные среды пользователя для … (username)
+· Изменить PATH (или создать, если ее нет)
+· В качестве значения через точку с запятой указать папки с node, npm
+Например:
+C:\Users\OUT-Surname-NP\node;C:\Users\OUT-Surname-NP\npm-3.10.7\bin;
+
+
+ДЗ:
+Посмотреть какие бывают теги.
+По HTML, CSS: http://htmlbook.ru/html
+По JS - особо ничего
+В Layout на Flex добавить в навигацию с помощью тега A кнопки, которые ничего не открывают (#) Padding, и Flex'ом заверстать.
