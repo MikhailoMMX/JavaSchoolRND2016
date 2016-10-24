@@ -1,0 +1,54 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="
+          http://xmlns.jcp.org/xml/ns/javaee
+          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/root-context.xml</param-value>
+    </context-param>
+
+    <servlet>
+        <servlet-name>ShowDBEntriesServlet</servlet-name>
+        <servlet-class>ru.sbt.web.ShowDBEntriesServlet</servlet-class>
+    </servlet>
+
+    <!--<servlet>-->
+        <!--<servlet-name>User</servlet-name>-->
+        <!--<servlet-class>ru.sberbank.javacourse.springmvc.web.UserServlet</servlet-class>-->
+    <!--</servlet>-->
+    <servlet>
+        <servlet-name>mvc-users</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ShowDBEntriesServlet</servlet-name>
+        <url-pattern>/DB/*</url-pattern>
+    </servlet-mapping>
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>User</servlet-name>-->
+        <!--<url-pattern>/users/*</url-pattern>-->
+    <!--</servlet-mapping>-->
+    <servlet-mapping>
+        <servlet-name>mvc-users</servlet-name>
+        <url-pattern>/mvc/*</url-pattern>
+    </servlet-mapping>
+
+    <!--<filter>-->
+        <!--<filter-name>LoggedInFilter</filter-name>-->
+        <!--<filter-class>ru.sbt.web.LoggedInFilter</filter-class>-->
+    <!--</filter>-->
+
+    <!--<filter-mapping>-->
+        <!--<filter-name>LoggedInFilter</filter-name>-->
+        <!--<url-pattern>/*</url-pattern>-->
+    <!--</filter-mapping>-->
+
+    <!--<listener>-->
+        <!--<listener-class>ru.sberbank.javacourse.springmvc.web.StartupNotificationListener-->
+        <!--</listener-class>-->
+    <!--</listener>-->
+</web-app>

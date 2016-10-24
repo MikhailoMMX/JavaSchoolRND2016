@@ -1,0 +1,26 @@
+create table CLIENTS(
+	ID bigint identity(1,1),
+	NAME varchar2(50),
+	primary key(ID)
+);
+
+create table ACCOUNTS(
+	ID bigint identity(1,1),
+	SALDO decimal(18,2),
+	ACC_NUM varchar2(50) unique,
+	CLIENT_ID bigint,
+	primary key(ID),
+	foreign key(CLIENT_ID) references clients(ID)
+);
+
+create table DOCUMENTS(
+	ID bigint identity(1,1),
+	ACC_DT bigint,
+	ACC_CT bigint,
+	SUMMA decimal(18,2),
+	PURPOSE varchar2(100),
+	DOC_DATE DATETIME,
+	primary key(ID),
+	foreign key(ACC_DT) references ACCOUNTS(ID),
+	foreign key(ACC_CT) references ACCOUNTS(ID)
+)

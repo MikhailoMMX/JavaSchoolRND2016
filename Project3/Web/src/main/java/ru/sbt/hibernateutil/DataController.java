@@ -4,10 +4,9 @@ package ru.sbt.hibernateutil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
-import ru.sbt.Exceptions.AccountNotFoundException;
-import ru.sbt.Exceptions.ClientNotFoundException;
+import org.springframework.context.annotation.Bean;
+import ru.sbt.exceptions.AccountNotFoundException;
+import ru.sbt.exceptions.ClientNotFoundException;
 import ru.sbt.data.Account;
 import ru.sbt.data.Client;
 import ru.sbt.data.Document;
@@ -17,7 +16,7 @@ import java.util.List;
 public class DataController implements IDataController{
     @Override
     public Client getClientByName(String name) {
-        try(Session session = HibernateUtil.openSession();) {
+        try(Session session = HibernateUtil.openSession()) {
             Transaction tx = session.getTransaction();
             tx.begin();
 
@@ -34,7 +33,7 @@ public class DataController implements IDataController{
 
     @Override
     public List<Account> getAccounts(Client client) {
-        try(Session session = HibernateUtil.openSession();) {
+        try(Session session = HibernateUtil.openSession()) {
             Transaction tx = session.getTransaction();
             tx.begin();
 
@@ -48,7 +47,7 @@ public class DataController implements IDataController{
 
     @Override
     public Account getAccountByNumber(String accnum) {
-        try(Session session = HibernateUtil.openSession();) {
+        try(Session session = HibernateUtil.openSession()) {
             Transaction tx = session.getTransaction();
             tx.begin();
 
@@ -66,7 +65,7 @@ public class DataController implements IDataController{
 
     @Override
     public List<Document> getDocumentsForAccount(Account account) {
-        try(Session session = HibernateUtil.openSession();) {
+        try(Session session = HibernateUtil.openSession()) {
             Transaction tx = session.getTransaction();
             tx.begin();
 
